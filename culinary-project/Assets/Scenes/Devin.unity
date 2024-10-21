@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 151861277}
   - component: {fileID: 151861278}
   m_Layer: 5
-  m_Name: Text Area
+  m_Name: Total Text Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 213185865}
   - component: {fileID: 213185866}
   m_Layer: 5
-  m_Name: Text Area
+  m_Name: Start Text Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -888,7 +888,7 @@ GameObject:
   - component: {fileID: 863329367}
   - component: {fileID: 863329366}
   m_Layer: 5
-  m_Name: InputField (TMP) (1)
+  m_Name: StartInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -911,7 +911,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 440, y: 120}
+  m_AnchoredPosition: {x: -251, y: 120}
   m_SizeDelta: {x: 218.527, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863329366
@@ -978,11 +978,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 863329366}
         m_TargetAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
-        m_MethodName: set_inputValidator
+        m_MethodName: set_textComponent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_InputValidator, Unity.TextMeshPro
+          m_ObjectArgument: {fileID: 343502713}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 1008852574}
   - component: {fileID: 1008852573}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: EndInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1098,7 +1098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280, y: 120}
+  m_AnchoredPosition: {x: 532, y: 134}
   m_SizeDelta: {x: 218.527, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1008852573
@@ -1186,7 +1186,7 @@ MonoBehaviour:
         m_MethodName: set_textComponent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 343502713}
+          m_ObjectArgument: {fileID: 239097151}
           m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
