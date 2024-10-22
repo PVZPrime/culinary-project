@@ -15,7 +15,7 @@ public class TestScript : MonoBehaviour
     {
         GameObject[] amounts = GameObject.FindGameObjectsWithTag("amounts");
         GameObject[] costs = GameObject.FindGameObjectsWithTag("costs");
-        amounts[0, 7, 23, 0, ];
+        GameObject gameObject1 = amounts[0, 7, 23, 0, ];
         costs[0.2, 0.1, 0.3, ];
     }
 }
