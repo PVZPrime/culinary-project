@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
+using System.Security.Cryptography;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -60,7 +61,7 @@ public class GetInputFieldTest : MonoBehaviour
             Debug.Log(float.TryParse(i_flourCost.text, out flourCost));
             float flourAmt = -1;
             Debug.Log(float.TryParse(i_flourAmt.text, out flourAmt));
-            
+        
 
         float saltCost = -1;
         Debug.Log(i_saltAmt.text);
@@ -68,5 +69,12 @@ public class GetInputFieldTest : MonoBehaviour
         float saltAmt = -1;
         Debug.Log(float.TryParse(i_saltAmt.text, out saltAmt));
         Debug.Log(saltAmt * saltCost + flourAmt * flourCost);
+
+        float OilCost = -1;
+        Debug.Log(i_OilAmt.text);
+        Debug.Log(float.TryParse(i_OilCost.text, out OilCost));
+        float OilAmt = -1;
+        Debug.Log(float.TryParse(i_OilAmt.text, out OilAmt));
+        Debug.Log(OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
