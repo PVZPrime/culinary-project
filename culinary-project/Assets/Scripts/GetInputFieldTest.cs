@@ -82,6 +82,13 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_sugarCost.text, out sugarCost));
         float sugarAmt = -1;
         Debug.Log(float.TryParse(i_sugarAmt.text, out sugarAmt));
-        Debug.Log(sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        
+
+        float heavyCreamCost = -1;
+        Debug.Log(i_heavyCreamAmt.text);
+        Debug.Log(float.TryParse(i_heavyCreamCost.text, out heavyCreamCost));
+        float heavyCreamAmt = -1;
+        Debug.Log(float.TryParse(i_sugarAmt.text, out heavyCreamAmt));
+        Debug.Log(heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
