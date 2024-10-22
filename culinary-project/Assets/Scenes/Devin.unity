@@ -1217,7 +1217,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 0.7529412}
   m_Text: Type The Amount
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
@@ -1392,7 +1392,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.7529412}
   m_Text: ---
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
@@ -1547,7 +1547,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 0.7529412}
   m_Text: Type The Cost
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
