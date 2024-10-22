@@ -1050,8 +1050,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 863329366}
   m_Layer: 5
   m_Name: i_flourAmt
-  m_TagString: Untagged
+  m_TagString: amounts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1121,7 +1121,7 @@ RectTransform:
   m_GameObject: {fileID: 863329364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 151861277}
@@ -1217,7 +1217,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 0.7529412}
   m_Text: Type The Amount
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
@@ -1296,7 +1296,7 @@ RectTransform:
   m_GameObject: {fileID: 1008852571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 213185865}
@@ -1392,7 +1392,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.7529412}
   m_Text: ---
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
@@ -1547,7 +1547,7 @@ MonoBehaviour:
       m_Calls: []
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
-  m_SelectionColor: {r: 0.6462264, g: 0.8007481, b: 1, a: 0.7529412}
+  m_SelectionColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 0.7529412}
   m_Text: Type The Cost
   m_CaretBlinkRate: 0
   m_CaretWidth: 1
@@ -1569,7 +1569,7 @@ RectTransform:
   m_GameObject: {fileID: 1103393009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1897347875}
