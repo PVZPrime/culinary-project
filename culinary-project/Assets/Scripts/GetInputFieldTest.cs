@@ -4,10 +4,14 @@ using System.Data.SqlTypes;
 using System.Security.Cryptography;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class GetInputFieldTest : MonoBehaviour
 {
+    
+    public TextMeshProUGUI MyText;
+
     [SerializeField]
     TMP_InputField field;
     [SerializeField]
@@ -40,16 +44,22 @@ public class GetInputFieldTest : MonoBehaviour
     [SerializeField]
     TMP_InputField i_eggsCost;
 
+    [SerializeField]
+    TMP_InputField i_yeastAmt;
+    [SerializeField]
+    TMP_InputField i_yeastCost;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        MyText.text = "";
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Calculate();
         }
@@ -95,6 +105,14 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_eggsCost.text, out eggsCost));
         float eggsAmt = -1;
         Debug.Log(float.TryParse(i_eggsAmt.text, out eggsAmt));
-        Debug.Log(eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        
+        float yeastCost = -1;
+        Debug.Log(i_yeastAmt.text);
+        Debug.Log(float.TryParse(i_yeastCost.text, out yeastCost));
+        float yeastAmt = -1;
+        Debug.Log(float.TryParse(i_yeastAmt.text, out yeastAmt));
+
+        Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        MyText.text = "" + (yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
