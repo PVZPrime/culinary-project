@@ -180,6 +180,6 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_carrotsAmt.text, out carrotsAmt));
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        MyText.text = "$" + (carrotsAmt * carrotsCost + potatoesAmt * potatoesCost + BakingSodaAmt * BakingSodaCost + butterAmt * butterCost + BakingPowderAmt * BakingPowderCost + MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        MyText.text = "$" + (carrotsAmt * carrotsCost + potatoesAmt * potatoesCost + BakingSodaAmt * BakingSodaCost + butterAmt * butterCost + BakingPowderAmt * BakingPowderCost + MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost + sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
