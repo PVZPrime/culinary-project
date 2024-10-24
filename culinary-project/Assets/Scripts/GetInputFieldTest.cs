@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Security.Cryptography;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
@@ -104,6 +105,9 @@ public class GetInputFieldTest : MonoBehaviour
     TMP_InputField i_carrotsCost;
     [SerializeField]
     TMP_InputField i_carrotsProduct;
+
+    [SerializeField]
+    TMP_InputField i_MarkUp;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -226,14 +230,12 @@ public class GetInputFieldTest : MonoBehaviour
         float carrotsProduct = -1;
         Debug.Log(float.TryParse(i_carrotsProduct.text, out carrotsProduct));
 
+        float MarkUp = -1;
+        Debug.Log(float.TryParse(i_MarkUp.text, out MarkUp));
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        MyText.text = "$" + (carrotsAmt * carrotsCost + potatoesAmt * potatoesCost + BakingSodaAmt * BakingSodaCost + butterAmt * butterCost + BakingPowderAmt * BakingPowderCost + MilkAmt * MilkCost + yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost + sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        
-        
-        
-        GameObject[] amounts = GameObject.FindGameObjectsWithTag("amounts");
-        GameObject[] costs = GameObject.FindGameObjectsWithTag("costs");
+        MyText.text = "$" + ((carrotsAmt * (carrotsCost / carrotsProduct) + potatoesAmt * (potatoesCost / potatoesProduct) + BakingSodaAmt * (BakingSodaCost / BakingSodaProduct) + butterAmt * (butterCost / butterProduct) + BakingPowderAmt * (BakingPowderCost / BakingPowderProduct)+ MilkAmt * (MilkCost / MilkProduct) + yeastAmt * (yeastCost / yeastProduct) + eggsAmt * (eggsCost / eggsProduct)+ heavyCreamAmt * (heavyCreamCost / heavyCreamProduct) + sugarAmt * (sugarCost / sugarProduct)+ OilAmt * (OilCost / oilProduct)+ saltAmt * (saltCost / saltProduct)+ flourAmt * (flourCost / flourProduct)*MarkUp));
+
 
     }
 
