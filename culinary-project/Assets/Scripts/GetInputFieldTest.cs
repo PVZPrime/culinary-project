@@ -59,6 +59,11 @@ public class GetInputFieldTest : MonoBehaviour
     [SerializeField]
     TMP_InputField i_BakingPowderCost;
 
+    [SerializeField]
+    TMP_InputField i_butterAmt;
+    [SerializeField]
+    TMP_InputField i_butterCost;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -135,7 +140,11 @@ public class GetInputFieldTest : MonoBehaviour
         float BakingPowderAmt = -1;
         Debug.Log(float.TryParse(i_BakingPowderAmt.text, out BakingPowderAmt));
 
-
+        float butterCost = -1;
+        Debug.Log(i_BakingPowderAmt.text);
+        Debug.Log(float.TryParse(i_butterCost.text, out butterCost));
+        float butterAmt = -1;
+        Debug.Log(float.TryParse(i_butterAmt.text, out butterAmt));
 
 
 
