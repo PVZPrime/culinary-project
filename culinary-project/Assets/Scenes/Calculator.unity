@@ -290,6 +290,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 187071226527861204, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: FlourAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 245501762258975064, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: HeavyCreamAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 387457324333837435, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: SugarAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 595194262701736589, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: EggsCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245907678036706217, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: BakingPowderAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335241802208046275, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: HeavyCreamCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558400413015125887, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: FlourCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687110519032767520, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: OilAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082658400839095148, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: PotatoesCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2163853074397257963, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: PotatoesAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321697666592277441, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: OilCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591200527885379893, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: YeastCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648524472832053471, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: SaltCost
+      objectReference: {fileID: 0}
     - target: {fileID: 2782780123212153937, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -370,9 +422,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3452264420560033224, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: ButterCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569093108252528134, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: BakingPowderCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251850519193900586, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: SaltAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180657153057080362, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: MilkAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213066286450474004, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: BakingSodaCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578938611868652749, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: CarrotsCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597172655963650241, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: YeastAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072242213350115774, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: EggsAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044756538027121802, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: ButterAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110991123026961690, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: MilkCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118381905289830605, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: CarrotsAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246843520246445665, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: BakingSodaAmount
+      objectReference: {fileID: 0}
     - target: {fileID: 8277688064063219696, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8403341410602930072, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: SugarCost
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
