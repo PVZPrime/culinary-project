@@ -35,6 +35,11 @@ public class GetInputFieldTest : MonoBehaviour
     TMP_InputField i_sugarCost;
 
     [SerializeField]
+    TMP_InputField i_MilkAmt;
+    [SerializeField]
+    TMP_InputField i_MilkCost;
+
+    [SerializeField]
     TMP_InputField i_heavyCreamAmt;
     [SerializeField]
     TMP_InputField i_heavyCreamCost;
@@ -92,7 +97,13 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_sugarCost.text, out sugarCost));
         float sugarAmt = -1;
         Debug.Log(float.TryParse(i_sugarAmt.text, out sugarAmt));
-        
+
+        float MilkCost = -1;
+        Debug.Log(i_MilkAmt.text);
+        Debug.Log(float.TryParse(i_MilkCost.text, out MilkCost));
+        float MilkAmt = -1;
+        Debug.Log(float.TryParse(i_MilkAmt.text, out MilkAmt));
+
 
         float heavyCreamCost = -1;
         Debug.Log(i_heavyCreamAmt.text);
@@ -113,6 +124,6 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_yeastAmt.text, out yeastAmt));
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        MyText.text = "" + (yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        MyText.text = "$" + (MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
