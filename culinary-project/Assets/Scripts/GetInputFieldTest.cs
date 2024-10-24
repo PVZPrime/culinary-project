@@ -54,6 +54,11 @@ public class GetInputFieldTest : MonoBehaviour
     [SerializeField]
     TMP_InputField i_yeastCost;
 
+    [SerializeField]
+    TMP_InputField i_BakingPowderAmt;
+    [SerializeField]
+    TMP_InputField i_BakingPowderCost;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -122,6 +127,21 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_yeastCost.text, out yeastCost));
         float yeastAmt = -1;
         Debug.Log(float.TryParse(i_yeastAmt.text, out yeastAmt));
+
+        
+            float BakingPowderCost = -1;
+        Debug.Log(i_BakingPowderAmt.text);
+        Debug.Log(float.TryParse(i_BakingPowderCost.text, out BakingPowderCost));
+        float BakingPowderAmt = -1;
+        Debug.Log(float.TryParse(i_BakingPowderAmt.text, out BakingPowderAmt));
+
+
+
+
+
+
+
+
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
         MyText.text = "$" + (MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
