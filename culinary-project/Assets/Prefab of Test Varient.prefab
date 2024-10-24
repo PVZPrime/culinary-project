@@ -1,5 +1,343 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4557461351010585671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2643467437426681587}
+  - component: {fileID: 3029815506709122260}
+  - component: {fileID: 5472743830791108279}
+  m_Layer: 5
+  m_Name: TotalText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2643467437426681587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557461351010585671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2782780123212153937}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 770, y: 160}
+  m_SizeDelta: {x: 173.64, y: 44.042}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3029815506709122260
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557461351010585671}
+  m_CullTransparentMesh: 1
+--- !u!114 &5472743830791108279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557461351010585671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Total
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 389d36a304c56984d8685254509ab6f2, type: 2}
+  m_sharedMaterial: {fileID: 381689020848898834, guid: 389d36a304c56984d8685254509ab6f2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4287032575
+  m_fontColor: {r: 1, g: 0.9243064, b: 0.5235849, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &6226291786602977405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882324176181797291}
+  - component: {fileID: 1609643217706995645}
+  - component: {fileID: 1057132062848624389}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882324176181797291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6226291786602977405}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -960, y: -540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2782780123212153937}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1609643217706995645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6226291786602977405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &1057132062848624389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6226291786602977405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!1 &7574003941762317849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8121932139802280836}
+  - component: {fileID: 6452112640983775517}
+  - component: {fileID: 7486570450624411955}
+  m_Layer: 5
+  m_Name: FlourText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8121932139802280836
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574003941762317849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2782780123212153937}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -400, y: 180}
+  m_SizeDelta: {x: 134.85999, y: 40.55548}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6452112640983775517
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574003941762317849}
+  m_CullTransparentMesh: 1
+--- !u!114 &7486570450624411955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574003941762317849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Flour
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 389d36a304c56984d8685254509ab6f2, type: 2}
+  m_sharedMaterial: {fileID: 381689020848898834, guid: 389d36a304c56984d8685254509ab6f2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.40724182, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &778109822057964639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8,6 +346,82 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 94956175052395692, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: OilText
+      objectReference: {fileID: 0}
+    - target: {fileID: 184340571814487762, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: EggsCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 600380115068792203, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: FlourAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 694772944679492871, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: HeavyCreamAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 885848527109599818, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: EggsText
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129524586552707108, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SugarAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498548769851180212, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: PotatoesAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597493660927047475, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: PotatoesCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629399271648209726, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: CarrotsText
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750736535971235996, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: HeavyCreamCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983339396011567094, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingPowderAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136312432623353983, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: OilAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264442176884132640, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: FlourCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407106027174065231, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: TotalBorder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676421247225737623, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: ButterCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970596624166309226, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: YeastCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984190111633738414, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SugarText
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095157636125419422, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: OilCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 3152176836036824800, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 770
+      objectReference: {fileID: 0}
     - target: {fileID: 3193629403168235534, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -88,12 +502,135 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3318330744246678656, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SaltCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588802962398196341, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SaltAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617605494207993076, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: TotalMoney
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841426498782878571, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SaltText
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272668680827841113, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingPowderCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677050255609116916, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingSodaText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505025549163214999, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: MilkText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559978486842269813, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: MilkAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594534746724541276, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: HeavyCreamText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855166949216214174, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: YeastAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870531687969218666, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: AmountText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873101889738485906, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: CarrotsCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5936724987786570281, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: YeastText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347868836924284890, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 770
+      objectReference: {fileID: 0}
+    - target: {fileID: 6347868836924284890, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 29.042
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400030238351965248, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: CostText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698356899103119435, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingSodaCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307320951360354517, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: ButterAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559784625145408993, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: EggsAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809110526937280985, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingPowderText
+      objectReference: {fileID: 0}
+    - target: {fileID: 8346554440328332538, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: ButterText
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631059110999347965, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: PotatoesText
+      objectReference: {fileID: 0}
     - target: {fileID: 8659339809119749039, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
       propertyPath: m_Name
-      value: Canvas Variant 1
+      value: Prefab of Test Varient
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700614449037611582, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: BakingSodaAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817029585139892549, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: MilkCost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819789245230318738, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: CarrotsAmount
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929019970427198332, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 9102562921024629703, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      propertyPath: m_Name
+      value: SugarCost
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1457560117388319939, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3193629403168235534, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      insertIndex: 31
+      addedObject: {fileID: 8121932139802280836}
+    - targetCorrespondingSourceObject: {fileID: 3193629403168235534, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      insertIndex: 45
+      addedObject: {fileID: 2643467437426681587}
+    - targetCorrespondingSourceObject: {fileID: 3193629403168235534, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1882324176181797291}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+--- !u!224 &2782780123212153937 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3193629403168235534, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
+  m_PrefabInstance: {fileID: 778109822057964639}
+  m_PrefabAsset: {fileID: 0}
