@@ -122,17 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &323473654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5119471062758022641, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-  m_PrefabInstance: {fileID: 5634438280349007810}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1254230071
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,28 +190,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1637451794 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4469360777554719958, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-  m_PrefabInstance: {fileID: 5634438280349007810}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1658539114 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9091673400742388915, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-  m_PrefabInstance: {fileID: 5634438280349007810}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1957530176
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,17 +282,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2057050334 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 799249948494756128, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-  m_PrefabInstance: {fileID: 5634438280349007810}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5634438280349007810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,22 +370,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4660891441712208800, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-      propertyPath: i_butterAmt
-      value: 
-      objectReference: {fileID: 1658539114}
-    - target: {fileID: 4660891441712208800, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-      propertyPath: i_butterCost
-      value: 
-      objectReference: {fileID: 2057050334}
-    - target: {fileID: 4660891441712208800, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-      propertyPath: i_BakingPowderAmt
-      value: 
-      objectReference: {fileID: 1637451794}
-    - target: {fileID: 4660891441712208800, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
-      propertyPath: i_BakingPowderCost
-      value: 
-      objectReference: {fileID: 323473654}
     - target: {fileID: 8659339809119749039, guid: a3abbe84e11ed994583ddc22a9197638, type: 3}
       propertyPath: m_Name
       value: Canvas

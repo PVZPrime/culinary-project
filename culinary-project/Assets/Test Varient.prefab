@@ -2754,9 +2754,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 799249948494756128}
     - target: {fileID: 4386596708637302166, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
+      propertyPath: i_BakingSodaAmt
+      value: 
+      objectReference: {fileID: 7920676181623960492}
+    - target: {fileID: 4386596708637302166, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
       propertyPath: i_heavyCreamAmt
       value: 
       objectReference: {fileID: 9113389128570115408}
+    - target: {fileID: 4386596708637302166, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
+      propertyPath: i_BakingSodaCost
+      value: 
+      objectReference: {fileID: 2193088525119230611}
     - target: {fileID: 4386596708637302166, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
       propertyPath: i_heavyCreamCost
       value: 
@@ -3544,6 +3552,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2193088525119230611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7071187983699072165, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
+  m_PrefabInstance: {fileID: 8957240080277390902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2431745542395381597 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6769413586856870251, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
@@ -3640,6 +3659,17 @@ MonoBehaviour:
 --- !u!114 &7855661871820217079 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1245923406566644929, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
+  m_PrefabInstance: {fileID: 8957240080277390902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7920676181623960492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1271536135210055066, guid: c756dfc369e8045488b71929a22f2f0c, type: 3}
   m_PrefabInstance: {fileID: 8957240080277390902}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
