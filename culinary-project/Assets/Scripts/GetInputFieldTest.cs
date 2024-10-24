@@ -147,7 +147,7 @@ public class GetInputFieldTest : MonoBehaviour
         Debug.Log(float.TryParse(i_BakingPowderAmt.text, out BakingPowderAmt));
 
         float butterCost = -1;
-        Debug.Log(i_BakingPowderAmt.text);
+        Debug.Log(i_butterAmt.text);
         Debug.Log(float.TryParse(i_butterCost.text, out butterCost));
         float butterAmt = -1;
         Debug.Log(float.TryParse(i_butterAmt.text, out butterAmt));
