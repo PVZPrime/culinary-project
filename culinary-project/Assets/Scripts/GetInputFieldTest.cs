@@ -74,6 +74,10 @@ public class GetInputFieldTest : MonoBehaviour
     [SerializeField]
     TMP_InputField i_potatoesCost;
     
+        [SerializeField]
+    TMP_InputField i_carrotsAmt;
+    [SerializeField]
+    TMP_InputField i_carrotsCost;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -169,9 +173,13 @@ public class GetInputFieldTest : MonoBehaviour
         float potatoesAmt = -1;
         Debug.Log(float.TryParse(i_potatoesAmt.text, out potatoesAmt));
 
-
+        float carrotsCost = -1;
+        Debug.Log(i_carrotsAmt.text);
+        Debug.Log(float.TryParse(i_carrotsCost.text, out carrotsCost));
+        float carrotsAmt = -1;
+        Debug.Log(float.TryParse(i_carrotsAmt.text, out carrotsAmt));
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        MyText.text = "$" + (potatoesAmt * potatoesCost +BakingSodaAmt * BakingSodaCost + butterAmt * butterCost + BakingPowderAmt * BakingPowderCost + MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
+        MyText.text = "$" + (carrotsAmt * carrotsCost + potatoesAmt * potatoesCost + BakingSodaAmt * BakingSodaCost + butterAmt * butterCost + BakingPowderAmt * BakingPowderCost + MilkAmt * MilkCost +yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
     }
 }
