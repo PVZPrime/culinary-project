@@ -370,12 +370,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4557461351010585671, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: TotalText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916919937392957471, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: CostText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607967804661793845, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: AmountText
+      objectReference: {fileID: 0}
     - target: {fileID: 8277688064063219696, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5364458984698205828, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
