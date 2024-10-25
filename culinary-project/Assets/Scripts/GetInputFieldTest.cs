@@ -305,8 +305,8 @@ public class GetInputFieldTest : MonoBehaviour
         
 
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
-        MyText.text = "$" + ((MarkUp)*(yeastTotalCost + saltTotalCost + heavyCreamTotalCost + sugarTotalCost + BakingPowderTotalCost + BakingSodaTotalCost + MilkTotalCost + potatoesTotalCost + carrotsTotalCost + OilTotalCost + butterTotalCost + eggsTotalCost));
-        MyCost.text = "$" + ((yeastTotalCost + saltTotalCost + heavyCreamTotalCost + sugarTotalCost + BakingPowderTotalCost + BakingSodaTotalCost + MilkTotalCost + potatoesTotalCost + carrotsTotalCost + OilTotalCost + butterTotalCost + eggsTotalCost));
+        MyText.text = "$" + ((MarkUp)*(flourTotalCost + yeastTotalCost + saltTotalCost + heavyCreamTotalCost + sugarTotalCost + BakingPowderTotalCost + BakingSodaTotalCost + MilkTotalCost + potatoesTotalCost + carrotsTotalCost + OilTotalCost + butterTotalCost + eggsTotalCost));
+        MyCost.text = "$" + ((flourCost +yeastCost + saltCost + heavyCreamCost + sugarCost + BakingPowderCost + BakingSodaCost + MilkCost + potatoesCost + carrotsCost + OilCost + butterCost + eggsCost));
 
     }
 
