@@ -222,6 +222,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 148976847261401020, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 187071226527861204, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: FlourUsed
+      objectReference: {fileID: 0}
+    - target: {fileID: 543483468517656541, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: carrotsProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 784974741348628453, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: heavyCreamProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310523118126998549, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_GlobalPointSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429558290347652039, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: sugarProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972807521986236860, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972807521986236860, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972807521986236860, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972807521986236860, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090306005377303881, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: bakingSodaProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113995935781885317, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: saltProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 2229130014206696120, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: oilProduct
+      objectReference: {fileID: 0}
     - target: {fileID: 2782780123212153937, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -302,6 +354,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3215671236663775327, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: potatoesProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 3385905675764210035, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: bakingPowderProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504694990726427275, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.4999981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3606656567161165961, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: butterProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969392480813599788, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184493488074694657, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_margin.z
+      value: 3.845581
+      objectReference: {fileID: 0}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_MarkUp
       value: 
@@ -317,7 +393,7 @@ PrefabInstance:
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_eggsProduct
       value: 
-      objectReference: {fileID: 6005113857903145158}
+      objectReference: {fileID: 6005113857903145159}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_saltProduct
       value: 
@@ -333,11 +409,11 @@ PrefabInstance:
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_yeastProduct
       value: 
-      objectReference: {fileID: 6005113857903145157}
+      objectReference: {fileID: 6005113857903145154}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_butterProduct
       value: 
-      objectReference: {fileID: 6005113857903145155}
+      objectReference: {fileID: 6005113857903145158}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_carrotsProduct
       value: 
@@ -349,18 +425,78 @@ PrefabInstance:
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_BakingSodaProduct
       value: 
-      objectReference: {fileID: 6005113857903145154}
+      objectReference: {fileID: 6005113857903145156}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_heavyCreamProduct
       value: 
-      objectReference: {fileID: 6005113857903145159}
+      objectReference: {fileID: 6005113857903145157}
     - target: {fileID: 5360047514951876607, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: i_BakingPowderProduct
       value: 
-      objectReference: {fileID: 6005113857903145156}
+      objectReference: {fileID: 6005113857903145155}
+    - target: {fileID: 6497918359477977286, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 668.1086
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497918359477977286, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 134.20921
+      objectReference: {fileID: 0}
+    - target: {fileID: 7639180224164893680, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: eggsProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688830254162194949, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: MarkUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903481495041455314, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903481495041455314, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903481495041455314, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7903481495041455314, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082599679202529343, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: frourProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087636506853295414, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 139.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087636506853295414, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.9478
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087636506853295414, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 764.06976
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087636506853295414, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 251.91739
+      objectReference: {fileID: 0}
     - target: {fileID: 8277688064063219696, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8577474958254144733, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: milkProduct
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999294193602434370, guid: debe86281e483f94e9f7e93e0c570c86, type: 3}
+      propertyPath: m_Name
+      value: yeastProduct
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
