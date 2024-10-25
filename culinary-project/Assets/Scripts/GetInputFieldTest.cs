@@ -12,7 +12,7 @@ public class GetInputFieldTest : MonoBehaviour
 {
     
     public TextMeshProUGUI MyText;
-
+    public TextMeshProUGUI MyCost;
     [SerializeField]
     TMP_InputField field;
     [SerializeField]
@@ -109,11 +109,15 @@ public class GetInputFieldTest : MonoBehaviour
     [SerializeField]
     TMP_InputField i_MarkUp;
 
+    
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         MyText.text = "";
-       
+        MyCost.text = "";
     }
 
     // Update is called once per frame
@@ -298,9 +302,11 @@ public class GetInputFieldTest : MonoBehaviour
         float MarkUp = -1;
         Debug.Log(float.TryParse(i_MarkUp.text, out MarkUp));
 
+        
+
         Debug.Log(yeastAmt * yeastCost + eggsAmt * eggsCost + heavyCreamAmt * heavyCreamCost * sugarAmt * sugarCost + OilAmt * OilCost + saltAmt * saltCost + flourAmt * flourCost);
         MyText.text = "$" + ((MarkUp)*(yeastTotalCost + saltTotalCost + heavyCreamTotalCost + sugarTotalCost + BakingPowderTotalCost + BakingSodaTotalCost + MilkTotalCost + potatoesTotalCost + carrotsTotalCost + OilTotalCost + butterTotalCost + eggsTotalCost));
-
+        MyCost.text = "$" + ((yeastTotalCost + saltTotalCost + heavyCreamTotalCost + sugarTotalCost + BakingPowderTotalCost + BakingSodaTotalCost + MilkTotalCost + potatoesTotalCost + carrotsTotalCost + OilTotalCost + butterTotalCost + eggsTotalCost));
 
     }
 
